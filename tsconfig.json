@@ -1,14 +1,19 @@
 {
   "compilerOptions": {
     "target": "es5",
-    "module": "commonjs",
+    "module": "esnext",
     "declaration": true,
+    "declarationDir": "types",
+    "emitDeclarationOnly": false,
     "outDir": "dist",
     "strict": true,
     "jsx": "react-jsx",
     "esModuleInterop": true,
     "moduleResolution": "node"
   },
-  "include": ["src"],
-  "exclude": ["node_modules", "**/__tests__/*"]
+  "include": [
+    "src/**/*.ts",
+    "src/**/*.tsx"
+  ],
+  "exclude": ["node_modules", "**/__tests__/*", "dist", "**/*.stories.*"],
 }

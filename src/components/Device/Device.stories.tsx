@@ -30,6 +30,7 @@ let embed = (
   </div>
 );
 
+//Device template renders
 export const IPhone13Pro = Template.bind({});
 IPhone13Pro.args = {
   device: "iphone-13-pro",
