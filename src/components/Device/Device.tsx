@@ -2,7 +2,6 @@ import React, { Fragment, ReactNode, useEffect, useState } from "react";
 import { DeviceProps } from "./Device.types";
 import IPhone13Pro from "../devices/ios/IPhone13Pro";
 import GalaxyS22 from "../devices/android/GalaxyS22";
-import "./styles.css";
 
 export default function Device(props: DeviceProps) {
   const { device, colour, backgroundImg, children } = props;

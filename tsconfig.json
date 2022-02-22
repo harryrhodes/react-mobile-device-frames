@@ -1,8 +1,10 @@
 {
   "compilerOptions": {
     "target": "es5",
-    "module": "commonjs",
+    "module": "esnext",
     "declaration": true,
+    "declarationDir": "types",
+    "emitDeclarationOnly": false,
     "outDir": "dist",
     "strict": true,
     "jsx": "react-jsx",
@@ -13,5 +15,5 @@
     "src/**/*.ts",
     "src/**/*.tsx"
   ],
-  "exclude": ["node_modules", "**/__tests__/*", "dist", "src/**/*.stories.tsx"]
+  "exclude": ["node_modules", "**/__tests__/*", "dist", "**/*.stories.*"],
 }
