@@ -1,0 +1,195 @@
+#Samsung_Galaxy_S22 {
+  position: absolute;
+  width: 483px;
+  height: 759px;
+  background-color: rgba(255, 255, 255, 1);
+  overflow: hidden;
+  --web-view-name: Samsung Galaxy S22;
+  --web-view-id: Samsung_Galaxy_S22;
+  --web-scale-on-resize: true;
+  --web-enable-deep-linking: true;
+}
+#Samsung_Galaxy_S22 #frame {
+  opacity: 0.644;
+  fill: rgba(0, 0, 0, 1);
+}
+#Samsung_Galaxy_S22 .frame {
+  position: absolute;
+  overflow: visible;
+  width: 336px;
+  height: 698px;
+  left: 69px;
+  top: 31px;
+}
+#Samsung_Galaxy_S22 #bezzle {
+  fill: rgba(0, 0, 0, 1);
+}
+#Samsung_Galaxy_S22 .bezzle {
+  position: absolute;
+  overflow: visible;
+  width: 324px;
+  height: 684px;
+  left: 75px;
+  top: 38px;
+}
+#Samsung_Galaxy_S22 #screen {
+  fill: rgba(255, 255, 255, 1);
+}
+#Samsung_Galaxy_S22 .screen {
+  position: absolute;
+  overflow: visible;
+  width: 307px;
+  height: 667px;
+  left: 84px;
+  top: 46px;
+}
+#Samsung_Galaxy_S22 #background-img {
+  position: absolute;
+  width: 315px;
+  height: 667px;
+  left: 80px;
+  top: 46px;
+  overflow: visible;
+}
+#Samsung_Galaxy_S22 #camera {
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  left: 230px;
+  top: 52px;
+  overflow: visible;
+}
+#Samsung_Galaxy_S22 #outer-camera {
+  fill: rgba(13, 13, 13, 1);
+}
+#Samsung_Galaxy_S22 .outer-camera {
+  position: absolute;
+  overflow: visible;
+  width: 16px;
+  height: 16px;
+  left: 0px;
+  top: 0px;
+}
+#Samsung_Galaxy_S22 #inner-camera {
+  fill: rgba(0, 55, 95, 1);
+}
+#Samsung_Galaxy_S22 .inner-camera {
+  position: absolute;
+  overflow: visible;
+  width: 4px;
+  height: 4px;
+  left: 6px;
+  top: 6px;
+}
+#Samsung_Galaxy_S22 #power-button {
+  fill: rgba(136, 136, 136, 1);
+}
+#Samsung_Galaxy_S22 .power-button {
+  position: absolute;
+  overflow: visible;
+  width: 4px;
+  height: 47px;
+  left: 405px;
+  top: 333px;
+}
+#Samsung_Galaxy_S22 #volume-controls {
+  fill: rgba(136, 136, 136, 1);
+}
+#Samsung_Galaxy_S22 .volume-controls {
+  position: absolute;
+  overflow: visible;
+  width: 4px;
+  height: 88px;
+  left: 405px;
+  top: 209px;
+}
+#Samsung_Galaxy_S22 #antenna-bands {
+  position: absolute;
+  width: 287px;
+  height: 698px;
+  left: 69px;
+  top: 31px;
+  overflow: visible;
+}
+#Samsung_Galaxy_S22 #l-t-band {
+  fill: rgba(136, 136, 136, 1);
+}
+#Samsung_Galaxy_S22 .l-t-band {
+  position: absolute;
+  overflow: visible;
+  width: 6px;
+  height: 6px;
+  left: 0px;
+  top: 53px;
+}
+#Samsung_Galaxy_S22 #l-m-band {
+  fill: rgba(136, 136, 136, 1);
+}
+#Samsung_Galaxy_S22 .l-m-band {
+  position: absolute;
+  overflow: visible;
+  width: 6px;
+  height: 6px;
+  left: 0px;
+  top: 164px;
+}
+#Samsung_Galaxy_S22 #l-b-band {
+  fill: rgba(136, 136, 136, 1);
+}
+#Samsung_Galaxy_S22 .l-b-band {
+  position: absolute;
+  overflow: visible;
+  width: 6px;
+  height: 6px;
+  left: 0px;
+  top: 611px;
+}
+#Samsung_Galaxy_S22 #b-l-band {
+  fill: rgba(136, 136, 136, 1);
+}
+#Samsung_Galaxy_S22 .b-l-band {
+  position: absolute;
+  overflow: visible;
+  width: 6px;
+  height: 7px;
+  left: 43px;
+  top: 691px;
+}
+#Samsung_Galaxy_S22 #b-r-band {
+  fill: rgba(136, 136, 136, 1);
+}
+#Samsung_Galaxy_S22 .b-r-band {
+  position: absolute;
+  overflow: visible;
+  width: 6px;
+  height: 7px;
+  left: 281px;
+  top: 691px;
+}
+#Samsung_Galaxy_S22 #t-r-band {
+  opacity: 0.722;
+  fill: rgba(136, 136, 136, 1);
+}
+#Samsung_Galaxy_S22 .t-r-band {
+  position: absolute;
+  overflow: visible;
+  width: 6px;
+  height: 7px;
+  left: 218px;
+  top: 0px;
+}
+
+/* Default children styling */
+#Samsung_Galaxy_S22 .children {
+  position: absolute;
+  overflow: visible;
+  width: 307px;
+  height: 667px;
+  left: 84px;
+  top: 46px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  z-index: 1;
+}
