@@ -3,7 +3,7 @@ import commonjs from "@rollup/plugin-commonjs";
 import typescript from "@rollup/plugin-typescript";
 import { terser } from "rollup-plugin-terser";
 import peerDepsExternal from "rollup-plugin-peer-deps-external";
-import css from "rollup-plugin-import-css";
+import postcss from "rollup-plugin-postcss";
 import dts from "rollup-plugin-dts";
 
 const packageJson = require("./package.json");
@@ -28,7 +28,6 @@ export default [
       },
     ],
     plugins: [
-      css({ minify: true }),
       peerDepsExternal(),
       resolve(),
       typescript({
@@ -38,6 +37,7 @@ export default [
         exclude: "node_modules",
         ignoreGlobal: true,
       }),
+      postcss(),
       terser(),
     ],
     external: Object.keys(globals),

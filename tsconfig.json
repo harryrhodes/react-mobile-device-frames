@@ -4,8 +4,7 @@
     "module": "esnext",
     "declaration": true,
     "declarationDir": "types",
-    "emitDeclarationOnly": false,
-    "outDir": "dist",
+    "emitDeclarationOnly": true,
     "strict": true,
     "jsx": "react-jsx",
     "esModuleInterop": true,
@@ -15,5 +14,9 @@
     "src/**/*.ts",
     "src/**/*.tsx"
   ],
-  "exclude": ["node_modules", "**/__tests__/*", "dist", "**/*.stories.*"],
+  "exclude": [
+    "node_modules", 
+    "**/__tests__/*", 
+    "dist", 
+    "**/*.stories.*"],
 }

@@ -1,8 +1,16 @@
+/**
+ * @file GalaxyS22.tsx - GalaxyS22 component definition
+ * @requires react
+ * @author Harry Rhodes
+ */
 import { GalaxyS22Props } from "./GalaxyS22.types";
-import "./style.css";
-
+import "./GalaxyS22.css";
+/**
+ * @function GalaxyS22 - Renders GalaxyS22 component
+ * @param props - GalaxyS22 props @see GalaxyS22.types.ts
+ */
 export default function GalaxyS22(props: GalaxyS22Props) {
-  const { colour, backgroundImg, children, className } = props;
+  const { backgroundImg, children } = props;
   return (
     <div id="Samsung_Galaxy_S22">
       <svg className="frame">
@@ -38,8 +46,8 @@ export default function GalaxyS22(props: GalaxyS22Props) {
           height="667"
         ></rect>
       </svg>
-      <div className={className ? className : "children"}>{children}</div>
-      {backgroundImg !== "" && <img id="background-img" src={backgroundImg} />}
+      <div className="children">{children}</div>
+      {backgroundImg && <img id="background-img" src={backgroundImg} />}
       <div id="camera">
         <svg className="outer-camera">
           <ellipse id="outer-camera" rx="8" ry="8" cx="8" cy="8"></ellipse>

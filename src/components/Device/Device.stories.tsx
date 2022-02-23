@@ -31,18 +31,9 @@ let embed = (
 );
 
 //Device template renders
-export const IPhone13Pro = Template.bind({});
-IPhone13Pro.args = {
+export const Primary = Template.bind({});
+Primary.args = {
   device: "iphone-13-pro",
-  colour: "grey",
   backgroundImg: IOSImage,
-  children: embed,
-};
-
-export const GalaxyS22 = Template.bind({});
-GalaxyS22.args = {
-  device: "galaxy-s22",
-  colour: "grey",
-  backgroundImg: AndriodImage,
   children: embed,
 };

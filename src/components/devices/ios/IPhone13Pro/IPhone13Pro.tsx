@@ -1,8 +1,16 @@
+/**
+ * @file iPhone13Pro.tsx - iPhone13Pro component definition
+ * @requires react
+ * @author Harry Rhodes
+ */
 import { IPhone13ProProps } from "./IPhone13Pro.types";
-import "./style.css";
-
+import "./IPhone13Pro.css";
+/**
+ * @function iPhone13Pro - Renders iPhone13Pro component
+ * @param props - iPhone13Pro props @see iPhone13Pro.types.ts
+ */
 export default function iPhone13Pro(props: IPhone13ProProps) {
-  const { colour, backgroundImg, children, className } = props;
+  const { backgroundImg, children } = props;
   return (
     <div id="iPhone_13_Pro">
       <svg className="frame">
@@ -38,8 +46,8 @@ export default function iPhone13Pro(props: IPhone13ProProps) {
           height="664"
         ></rect>
       </svg>
-      <div className={className ? className : "children"}>{children}</div>
-      {backgroundImg !== "" && <img id="background-img" src={backgroundImg} />}
+      <div className="children">{children}</div>
+      {backgroundImg && <img id="background-img" src={backgroundImg} />}
 
       <svg
         className="notch"
