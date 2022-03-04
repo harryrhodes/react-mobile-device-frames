@@ -7,7 +7,7 @@
 import { createUseStyles } from "react-jss";
 export const useStyles = createUseStyles({
   root: {
-    position: "absolute",
+    position: "relative",
     width: "483px",
     height: "759px",
     backgroundColor: "rgba(255, 255, 255, 1)",

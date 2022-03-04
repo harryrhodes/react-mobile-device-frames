@@ -7,8 +7,7 @@
 import { createUseStyles } from "react-jss";
 export const useStyles = createUseStyles({
   root: {
-    display: "-moz-initial",
-    position: "absolute",
+    position: "relative",
     minWidth: "483px",
     minHeight: "759px",
     backgroundColor: "rgba(255, 255, 255, 1)",
