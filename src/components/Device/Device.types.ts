@@ -5,22 +5,13 @@
  */
 import { ReactNode } from "react";
 /**
- * Enum for device type.
- * @readonly
- * @enum {string}
- */
-enum DeviceType {
-  IPhone13Pro = "iphone-13-pro",
-  GalaxyS22 = "galaxy-s22",
-}
-/**
  * @typedef DeviceProps
  * @property {DeviceType} device - name of device to be displayed @see DeviceType
  * @property {string} backgroundImg - src of background image to display on device
  * @property {ReactNode} children - embedded content to be displayed
  */
 export interface DeviceProps {
-  device: DeviceType;
+  device: "iphone-13-pro" | "galaxy-s22";
   backgroundImg?: string;
   children?: ReactNode;
 }
