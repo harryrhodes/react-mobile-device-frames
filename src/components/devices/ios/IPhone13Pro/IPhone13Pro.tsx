@@ -10,7 +10,7 @@ import { useStyles } from "./styles";
  * @param props - iPhone13Pro props @see iPhone13Pro.types.ts
  */
 export default function iPhone13Pro(props: IPhone13ProProps) {
-  const { backgroundImg, children } = props;
+  const { backgroundImg, className, children } = props;
   const classes = useStyles();
   return (
     <div className={classes.root}>
@@ -23,7 +23,7 @@ export default function iPhone13Pro(props: IPhone13ProProps) {
       <svg className={classes.screen}>
         <rect rx="35" ry="35" x="0" y="0" width="306" height="664"></rect>
       </svg>
-      <div className={classes.children}>{children}</div>
+      <div className={className ? className : classes.children}>{children}</div>
       {backgroundImg && (
         <img className={classes.backgroundImg} src={backgroundImg} />
       )}

@@ -12,19 +12,27 @@ import GalaxyS22 from "../devices/android/GalaxyS22";
  * @param props - Device props @see Device.types.ts
  */
 export default function Device(props: DeviceProps) {
-  const { device, backgroundImg, children } = props;
+  const { device, backgroundImg, className, children } = props;
   const [deviceType, setDeviceType] = useState<ReactNode>();
 
   useEffect(() => {
     switch (device) {
       case "iphone-13-pro":
         setDeviceType(
-          <IPhone13Pro backgroundImg={backgroundImg} children={children} />
+          <IPhone13Pro
+            backgroundImg={backgroundImg}
+            className={className}
+            children={children}
+          />
         );
         break;
       case "galaxy-s22":
         setDeviceType(
-          <GalaxyS22 backgroundImg={backgroundImg} children={children} />
+          <GalaxyS22
+            backgroundImg={backgroundImg}
+            className={className}
+            children={children}
+          />
         );
         break;
       default:

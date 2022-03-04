@@ -11,5 +11,6 @@ import { ReactNode } from "react";
  */
 export interface GalaxyS22Props {
   backgroundImg?: string;
+  className?: string;
   children?: ReactNode;
 }

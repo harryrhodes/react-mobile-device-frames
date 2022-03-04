@@ -42,6 +42,7 @@ export const useStyles = createUseStyles({
     top: "49px",
   },
   backgroundImg: {
+    borderRadius: "30px",
     position: "absolute",
     width: "307px",
     height: "664px",

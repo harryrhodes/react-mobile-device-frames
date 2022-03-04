@@ -11,5 +11,6 @@ import { ReactNode } from "react";
  */
 export interface IPhone13ProProps {
   backgroundImg?: string;
+  className?: string;
   children?: ReactNode;
 }

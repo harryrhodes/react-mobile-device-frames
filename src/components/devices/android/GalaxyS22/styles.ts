@@ -42,12 +42,13 @@ export const useStyles = createUseStyles({
     top: "46px",
   },
   backgroundImg: {
+    borderRadius: "30px",
     position: "absolute",
-    width: "315px",
-    height: "667px",
-    left: "80px",
-    top: "46px",
-    overflow: "visible",
+    width: "310px",
+    height: "669px",
+    left: "82px",
+    top: "45px",
+    overflow: "hidden",
   },
   camera: {
     position: "absolute",

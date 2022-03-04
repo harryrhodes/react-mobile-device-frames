@@ -33,7 +33,7 @@ let embed = (
 //Device template renders
 export const Primary = Template.bind({});
 Primary.args = {
-  device: "galaxy-s22",
-  backgroundImg: AndriodImage,
+  device: "iphone-13-pro",
+  backgroundImg: IOSImage,
   children: embed,
 };

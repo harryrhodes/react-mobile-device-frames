@@ -11,7 +11,7 @@ import { useStyles } from "./styles";
  * @param props - GalaxyS22 props @see GalaxyS22.types.ts
  */
 export default function GalaxyS22(props: GalaxyS22Props) {
-  const { backgroundImg, children } = props;
+  const { backgroundImg, className, children } = props;
   const classes = useStyles();
   return (
     <div className={classes.root}>
@@ -24,7 +24,7 @@ export default function GalaxyS22(props: GalaxyS22Props) {
       <svg className={classes.screen}>
         <rect rx="28" ry="28" x="0" y="0" width="307" height="667"></rect>
       </svg>
-      <div className={classes.children}>{children}</div>
+      <div className={className ? className : classes.children}>{children}</div>
       {backgroundImg && (
         <img className={classes.backgroundImg} src={backgroundImg} />
       )}

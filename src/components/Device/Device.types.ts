@@ -13,5 +13,6 @@ import { ReactNode } from "react";
 export interface DeviceProps {
   device: "iphone-13-pro" | "galaxy-s22";
   backgroundImg?: string;
+  className?: string;
   children?: ReactNode;
 }
