@@ -1,6 +1,6 @@
 {
   "name": "react-mobile-device-frames",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "A React library for quickly embedding content on mock mobile devices.",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
