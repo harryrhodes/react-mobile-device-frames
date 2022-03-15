@@ -38,6 +38,6 @@ export default function Device(props: DeviceProps) {
       default:
         break;
     }
-  }, [device]);
+  }, [device, backgroundImg, children]);
   return <Fragment>{deviceType}</Fragment>;
 }
